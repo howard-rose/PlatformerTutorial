@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "bfa09d7d-0a4d-4bc9-9c9c-63624738cf78",
+            "Value": {
+                "id": "ae72fe03-2ab9-43c5-ba4a-55ea35dc4097",
+                "resourcePath": "sprites\\sPlayerAir\\sPlayerAir.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "c54d1ee9-29d2-4ab2-94d4-5dfe2738105e",
@@ -207,6 +215,38 @@
             }
         },
         {
+            "Key": "daa2da3f-f921-4140-81ec-3a111f0c1bed",
+            "Value": {
+                "id": "80968949-eeab-4931-99c6-72374ebda803",
+                "resourcePath": "objects\\oBullet\\oBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dd467460-c063-48eb-b9bf-e1bc9d8ac0aa",
+            "Value": {
+                "id": "034a3abd-0fc2-4aa7-b92e-9fa399600f64",
+                "resourcePath": "objects\\oGun\\oGun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e0ed347e-fbe0-4571-9b28-6319d12e7e88",
+            "Value": {
+                "id": "3ee3894a-91f3-464a-bdaf-5b5889773509",
+                "resourcePath": "sprites\\sGun\\sGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e203ee5f-0b79-4605-8324-6e34a26976af",
+            "Value": {
+                "id": "be5c0f7a-61d8-4980-b44b-7b177213ad81",
+                "resourcePath": "sprites\\sBullet\\sBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3d2efa4-8a25-4322-a41a-a6282a30ddec",
             "Value": {
                 "id": "630f2153-16ce-49ea-bdd7-f4af4caf0e6b",
@@ -220,6 +260,14 @@
                 "id": "950a6cd3-61f2-4ef1-88cd-72239642256a",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa0e3ccc-02bb-42d9-a915-7c5f8c1665c1",
+            "Value": {
+                "id": "8ebe2fd5-dd2e-4d69-a5f7-4dd2dc74cd08",
+                "resourcePath": "sprites\\sPlayerRun\\sPlayerRun.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
