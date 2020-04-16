@@ -1,3 +1,4 @@
+/// @description Check if dead
 if (hp <= 0) {
 	with (instance_create_layer(x, y, layer, oEnemyDead)) {
 		vx = lengthdir_x(3, other.hitFrom)
