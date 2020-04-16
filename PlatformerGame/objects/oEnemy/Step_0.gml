@@ -1,8 +1,9 @@
-//Vertical movement
+#region //Vertical movement
 var onFloor = place_meeting(x, y+1, oWall)
 vy += grav
+#endregion
 
-//Collisions	
+#region //Collisions	
 //Horizontal collision
 if (place_meeting(x+vx, y, oWall)) {
 	while (!place_meeting(x+sign(vx), y, oWall)) {
@@ -20,8 +21,9 @@ if (place_meeting(x, y+vy, oWall)) {
 	vy = 0
 }
 y += vy
+#endregion
 
-//Animation
+#region //Animation
 if (onFloor) {
 	image_speed = 1
 	sprite_index = (vx == 0) ? sEnemy : sEnemyRun
@@ -32,3 +34,4 @@ if (onFloor) {
 } 
 
 if (vx != 0) image_xscale = sign(vx)
+#endregion

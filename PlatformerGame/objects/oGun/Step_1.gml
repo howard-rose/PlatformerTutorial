@@ -10,6 +10,8 @@ if (mouse_check_button(mb_left)) and (firingDelay < 0) {
 	firingDelay = 5	
 	recoil = 4
 	
+	ScreenShake(1, (1/6))
+	
 	with (instance_create_layer(x, y, "Bullets", oBullet)) {
 		image_angle = other.image_angle + random_range(-3, 3) //Slightly randomized bullet spread
 		speed = 25

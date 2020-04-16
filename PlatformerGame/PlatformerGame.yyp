@@ -138,7 +138,7 @@
             "Key": "36b07ce6-7c3c-45d0-b5d9-40fd09bb1a19",
             "Value": {
                 "id": "1802bff5-648a-40ed-8f4f-0959707b4a49",
-                "resourcePath": "scripts\\SlideTransition\\SlideTransition.yy",
+                "resourcePath": "scripts\\Transition\\Transition.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -164,6 +164,14 @@
                 "id": "8066e4b9-1c31-4737-b889-34a7775bf700",
                 "resourcePath": "sprites\\sEnemy\\sEnemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "45e149ca-571c-42dc-8bbd-4b55fedabb37",
+            "Value": {
+                "id": "2cbf9737-3a5d-47ea-8776-0cfb908d31b0",
+                "resourcePath": "scripts\\ScreenShake\\ScreenShake.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -218,7 +226,7 @@
             "Key": "85c164c7-980b-4567-b739-494c054171fd",
             "Value": {
                 "id": "6a79f68f-1ab7-48bd-a5fb-921fdcd30518",
-                "resourcePath": "objects\\oLevelEnd\\oLevelEnd.yy",
+                "resourcePath": "objects\\oRoomEnd\\oRoomEnd.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -408,7 +416,8 @@
         }
     ],
     "script_order": [
-        "36b07ce6-7c3c-45d0-b5d9-40fd09bb1a19"
+        "36b07ce6-7c3c-45d0-b5d9-40fd09bb1a19",
+        "45e149ca-571c-42dc-8bbd-4b55fedabb37"
     ],
     "tutorial": ""
 }

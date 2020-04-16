@@ -1,4 +1,5 @@
-/// @description Hitflash effect
+/// @desc Hitflash effect
+
 draw_self()
 
 if (hitflash > 0) {

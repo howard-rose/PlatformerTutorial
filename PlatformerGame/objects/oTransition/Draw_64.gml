@@ -1,4 +1,4 @@
-/// @description Draw black bars
+/// @desc Draw black bars
 
 if (mode != TransitionMode.Off) {
 	draw_set_color(c_black)

@@ -1,4 +1,4 @@
-/// @description Size variables and mode setup
+/// @desc Size variables and mode setup
 
 width = display_get_gui_width()	
 height = display_get_gui_height()
@@ -13,6 +13,8 @@ enum TransitionMode {
 }
 
 mode = TransitionMode.Intro
-percentmax = 1.1
+percentmax = 1.1 //Default 1, rectangles will barely touch before moving away agian
+transitionspd = 10
+transitionspdmin = 0.005
 percent = percentmax
 target = room
