@@ -11,3 +11,6 @@ shakeLength = 0 //60
 shakeMagnitude = 0
 shakeRemain = 0
 buff = 32 //Buffer for the room width and height; make sure it is always above shakeMagnitude to avoid seeing outside the room
+
+layerMountains = layer_get_id("Mountains")
+layerTrees = layer_get_id("Trees")

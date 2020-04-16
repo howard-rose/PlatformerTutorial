@@ -21,3 +21,13 @@ shakeRemain = max(0, shakeRemain - ((1/shakeLength) * shakeMagnitude))
 
 //Update camera view
 camera_set_view_pos(camera, x-view_w_half, y-view_h_half)
+
+//Parallax backgrounds
+//TODO: Create a script and dictionary that will run through the layers and perform the parallax?
+//Greater x value means that background object(s) should have greater perceived "depth"
+if (layer_exists(layerMountains)) {
+	layer_x(layerMountains, x/2)	
+}
+if (layer_exists(layerTrees)) {
+	layer_x(layerTrees, x/4)
+}
