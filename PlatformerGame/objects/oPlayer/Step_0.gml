@@ -1,9 +1,16 @@
-//Keyboard input
-keyLeft = keyboard_check(ord("A")) or keyboard_check(vk_left)
-keyRight = keyboard_check(ord("D")) or keyboard_check(vk_right)
-keyJump = keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_space)
+#region //Player input
+if (hascontrol) {
+	keyLeft = keyboard_check(ord("A")) or keyboard_check(vk_left)
+	keyRight = keyboard_check(ord("D")) or keyboard_check(vk_right)
+	keyJump = keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_space)
+} else {
+	keyLeft = 0
+	keyRight = 0
+	keyJump = 0
+}
+#endregion
 
-//Calculate movement
+#region //Calculate movement
 //Horizontal movement
 var xmove = keyRight - keyLeft
 vx = xmove * walkSpd
@@ -15,8 +22,9 @@ vy += grav
 if (onFloor and keyJump) {
 	vy = jumpSpd
 }
+#endregion
 
-//Collisions	
+#region //Collisions	
 //Horizontal collision
 if (place_meeting(x+vx, y, oWall)) {
 	while (!place_meeting(x+sign(vx), y, oWall)) {
@@ -34,8 +42,9 @@ if (place_meeting(x, y+vy, oWall)) {
 	vy = 0
 }
 y += vy
+#endregion
 
-//Animation
+#region//Animation
 if (onFloor) {
 	image_speed = 1
 	sprite_index = (xmove == 0) ? sPlayer : sPlayerRun
@@ -46,3 +55,4 @@ if (onFloor) {
 } 
 
 if (xmove != 0) image_xscale = xmove
+#endregion

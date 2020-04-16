@@ -1,2 +1,2 @@
 /// @description Restart game
-game_restart() //For testing
+SlideTransition(TransitionMode.Restart) //For testing
