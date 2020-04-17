@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "77450d33-b520-458c-a9cb-9f86616bd30c",
+            "Value": {
+                "id": "acad81c3-24e3-4a9b-b88e-99ca0a59e966",
+                "resourcePath": "objects\\oPointer\\oPointer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d388df1-9ab5-47f0-8251-a355da2bb66f",
             "Value": {
                 "id": "4c3af093-4827-4516-a9b8-8d806e3c50af",
@@ -444,6 +452,14 @@
                 "id": "aaa192da-16c7-4bdc-b142-55563aa64e4d",
                 "resourcePath": "views\\bb35f669-f195-41ba-a546-9daf09547ecb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bb8b5cf6-a094-4b49-b78d-76c22e0603bc",
+            "Value": {
+                "id": "523fada3-3079-414f-b703-06abc0bef55a",
+                "resourcePath": "sprites\\sMarker2\\sMarker2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
