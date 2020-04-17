@@ -6,7 +6,8 @@
     "children": [
         "7553baf2-17e5-4359-843c-ac39645222d7",
         "fa0e3ccc-02bb-42d9-a915-7c5f8c1665c1",
-        "bfa09d7d-0a4d-4bc9-9c9c-63624738cf78"
+        "bfa09d7d-0a4d-4bc9-9c9c-63624738cf78",
+        "ab852687-e20f-41f8-8826-2672e86055a8"
     ],
     "filterType": "GMSprite",
     "folderName": "Player Sprites",
