@@ -14,13 +14,16 @@ if (menu_control) {
 		if (menu_cursor < 0) menu_cursor = menu_items - 1
 	}
 	if (keyboard_check_pressed(vk_enter)) {
-		menu_x_target = gui_width + menu_x_offset
-		menu_committed = menu_cursor
-		menu_control = false
+		MenuOptionTrigger(menu_cursor)
+	}
+	
+	var mouse_y_gui = device_mouse_y_to_gui(0)
+	if (mouse_y_gui < menu_y) and (mouse_y_gui > menu_top) {
+		menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 1.5)	
 		
-		ScreenShake(4, 0.5)		
-		
-		audio_play_sound(sndDeath, 4, false)
+		if (mouse_check_button_pressed(mb_left)) {
+			MenuOptionTrigger(menu_cursor)
+		}
 	}
 }
 
