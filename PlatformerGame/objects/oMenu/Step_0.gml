@@ -22,16 +22,24 @@ if (menu_control) {
 	}
 }
 
+//Menu option selected
 if (menu_committed != -1) and (menu_x > gui_width + menu_x_offset - 50) {
 	switch (menu_committed) {
 		default:
-		case 2:
+		case 2: //New Game
 			Transition(TransitionMode.Next)
 			break;
-		case 1:
-			Transition(TransitionMode.Next)
+		case 1: //Continue
+			if (!file_exists(SAVEFILE)) {
+				Transition(TransitionMode.Next)
+			} else {
+				var file = file_text_open_read(SAVEFILE)
+				var target = file_text_read_real(file)
+				file_text_close(file)
+				Transition(TransitionMode.Goto, target)
+			}
 			break;
-		case 0:
+		case 0: //Quit
 			game_end()
 			break;
 	}

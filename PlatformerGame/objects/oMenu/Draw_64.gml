@@ -10,7 +10,7 @@ for (var i=0; i < menu_items; i++) {
 	var color = c_gray
 	
 	if (menu_cursor == i) {
-		txt = string_insert("> ", txt, 0) //TODO: check if txt = "> " + txt works as well
+		txt = "> " + txt
 		var color = c_white
 	} 
 	
