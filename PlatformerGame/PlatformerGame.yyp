@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "49a7cf15-90dd-4e5c-9e00-b5de80c9e5d2",
+            "Value": {
+                "id": "b64101b4-8f64-41c6-b0ef-f529d860bb5d",
+                "resourcePath": "objects\\oCrate\\oCrate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f6973b1-38f8-43e2-a8d8-60e96d16c2c8",
             "Value": {
                 "id": "8677e43c-754b-423d-a0c5-f6fa5511dc88",
@@ -284,6 +292,22 @@
                 "id": "4124d7cb-e91a-4eaf-af05-49f07f89d65d",
                 "resourcePath": "shaders\\shWhite\\shWhite.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "60d172d3-522c-46ea-ac3e-8919f2ed6b89",
+            "Value": {
+                "id": "f03d80ba-9cf0-4790-81e4-d33b56dbe2df",
+                "resourcePath": "objects\\oGunPickup\\oGunPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "65cf7ed9-edf6-4873-b9d6-15499a42a9cd",
+            "Value": {
+                "id": "799ae99c-184b-4f56-b481-12d7cd7d8e5b",
+                "resourcePath": "sprites\\sCrate\\sCrate.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -527,11 +551,27 @@
             }
         },
         {
+            "Key": "d6609fe8-64db-4152-90ea-029437dc226d",
+            "Value": {
+                "id": "e2432a8b-1f26-4e94-8ff8-263d5b60d88f",
+                "resourcePath": "sprites\\sGun1\\sGun1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d773eda5-8dd1-457f-ac2c-0776102d1520",
             "Value": {
                 "id": "156e4a2b-b098-46ce-a78e-c6251110850a",
                 "resourcePath": "views\\d773eda5-8dd1-457f-ac2c-0776102d1520.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d99f1792-0f5d-41f9-99f3-ed2851a96286",
+            "Value": {
+                "id": "9eab8a38-2cf8-4cf8-8b3f-3f5a23c05660",
+                "resourcePath": "objects\\pShootable\\pShootable.yy",
+                "resourceType": "GMObject"
             }
         },
         {

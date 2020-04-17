@@ -3,6 +3,12 @@ var onFloor = place_meeting(x, y+1, oWall)
 vy += grav
 #endregion
 
+//Don't walk off edges
+if (onFloor) and (afraidOfHeights) and (!place_meeting(x+vx, y+1, oWall)) {
+	vx = -vx
+	//assumes that enemy will not walk off ledge in the other direction
+}
+
 #region //Collisions	
 //Horizontal collision
 if (place_meeting(x+vx, y, oWall)) {

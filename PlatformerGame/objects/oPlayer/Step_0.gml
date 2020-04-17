@@ -19,8 +19,10 @@ vx = xmove * walkSpd
 var onFloor = place_meeting(x, y+1, oWall)
 vy += grav
 
-if (onFloor and keyJump) {
+canjump--
+if (canjump > 0) and (keyJump) {
 	vy = jumpSpd
+	canjump = 0
 }
 #endregion
 
@@ -51,6 +53,8 @@ if (onFloor) {
 		var snd = audio_play_sound(sndLanding, 2, false)
 		audio_sound_pitch(snd, choose(0.8, 1, 1.2)) //Slightly randomize pitch
 	}
+	
+	canjump = jumpBufferMax
 	
 	image_speed = 1
 	sprite_index = (xmove == 0) ? sPlayer : sPlayerRun

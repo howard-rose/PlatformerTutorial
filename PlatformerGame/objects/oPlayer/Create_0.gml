@@ -4,3 +4,5 @@ grav = 0.5
 walkSpd = 7.5
 jumpSpd = -10
 hascontrol = true
+canjump = 0
+jumpBufferMax = 5
