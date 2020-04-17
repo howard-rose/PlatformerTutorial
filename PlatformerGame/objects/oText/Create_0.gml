@@ -1,0 +1,10 @@
+spd = 0.25 //How many characters are drawn per frame
+letters = 0
+text = "This is a test string.\n2nd Line"
+length = string_length(text)
+text_current = ""
+width = 0
+height = 0
+margin = 10
+radiusx = 15
+radiusy = 15

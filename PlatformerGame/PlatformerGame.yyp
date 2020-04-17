@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1ccb7c3a-374a-438b-8eb2-82ab0150b953",
+            "Value": {
+                "id": "0970ebee-1563-43c1-a43a-74a30d58d66a",
+                "resourcePath": "objects\\oText\\oText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1cd4cc9d-b45a-4913-a464-2fc3a6166bba",
             "Value": {
                 "id": "8e0dd7cd-9c36-42e1-9fc5-7542ce4c8d1e",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "3982b32f-e78e-4b68-920d-49d14223ec12",
+            "Value": {
+                "id": "ccb72c55-2ba9-4a4e-a8e8-afa3bde2ea4b",
+                "resourcePath": "sprites\\sSign\\sSign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f13d417-60af-4588-a0a8-9b9083825f00",
             "Value": {
                 "id": "8066e4b9-1c31-4737-b889-34a7775bf700",
@@ -180,6 +196,14 @@
                 "id": "2cbf9737-3a5d-47ea-8776-0cfb908d31b0",
                 "resourcePath": "scripts\\ScreenShake\\ScreenShake.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "47cf54d3-364e-4041-98bc-43add598a6c9",
+            "Value": {
+                "id": "72723880-a844-4d6c-82fa-521c11eb4b36",
+                "resourcePath": "sprites\\sMarker\\sMarker.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -204,6 +228,14 @@
                 "id": "8b8aa2aa-afa5-417d-8240-e46daeeedf0c",
                 "resourcePath": "sprites\\sTrees\\sTrees.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4f6973b1-38f8-43e2-a8d8-60e96d16c2c8",
+            "Value": {
+                "id": "8677e43c-754b-423d-a0c5-f6fa5511dc88",
+                "resourcePath": "fonts\\fSign\\fSign.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -284,6 +316,14 @@
                 "id": "6a79f68f-1ab7-48bd-a5fb-921fdcd30518",
                 "resourcePath": "objects\\oRoomEnd\\oRoomEnd.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8e87c7c4-e7ad-4046-b5c6-cd29492f6f6a",
+            "Value": {
+                "id": "e5d98571-878f-4b7a-9aa0-e9c037f72f9c",
+                "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -423,6 +463,14 @@
             }
         },
         {
+            "Key": "c7de4dbd-77a6-47a5-a172-6e36a328f628",
+            "Value": {
+                "id": "acd97b22-29eb-4ecf-a2cf-7b3a84a90e5f",
+                "resourcePath": "objects\\oSign\\oSign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c9ee91ae-1ebc-4de3-9a53-743f7a7d08e5",
             "Value": {
                 "id": "c9635f98-a6ca-4da5-9501-428d0c7645f9",
@@ -545,7 +593,8 @@
     ],
     "script_order": [
         "36b07ce6-7c3c-45d0-b5d9-40fd09bb1a19",
-        "45e149ca-571c-42dc-8bbd-4b55fedabb37"
+        "45e149ca-571c-42dc-8bbd-4b55fedabb37",
+        "8e87c7c4-e7ad-4046-b5c6-cd29492f6f6a"
     ],
     "tutorial": ""
 }
