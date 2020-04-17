@@ -19,6 +19,8 @@ if (menu_control) {
 		menu_control = false
 		
 		ScreenShake(4, 0.5)		
+		
+		audio_play_sound(sndDeath, 4, false)
 	}
 }
 

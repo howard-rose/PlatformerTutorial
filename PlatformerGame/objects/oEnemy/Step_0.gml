@@ -33,5 +33,6 @@ if (onFloor) {
 	image_index = (vy > 0) ? 1 : 0
 } 
 
-if (vx != 0) image_xscale = sign(vx)
+image_xscale = (sign(vx != 0)) ? size * sign(vx) : size
+image_yscale = size
 #endregion

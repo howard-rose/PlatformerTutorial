@@ -46,6 +46,12 @@ y += vy
 
 #region//Animation
 if (onFloor) {
+	//Landing sound
+	if (sprite_index == sPlayerAir) {
+		var snd = audio_play_sound(sndLanding, 2, false)
+		audio_sound_pitch(snd, choose(0.8, 1, 1.2)) //Slightly randomize pitch
+	}
+	
 	image_speed = 1
 	sprite_index = (xmove == 0) ? sPlayer : sPlayerRun
 } else { 

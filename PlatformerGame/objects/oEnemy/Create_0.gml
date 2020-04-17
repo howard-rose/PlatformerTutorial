@@ -7,3 +7,4 @@ jumpSpd = -10
 hp = 4
 hitflash = 0
 hitFrom = 0
+size = 1
