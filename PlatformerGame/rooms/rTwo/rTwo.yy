@@ -1,6 +1,6 @@
 
 {
-    "name": "room1",
+    "name": "rTwo",
     "id": "590b76d2-dd77-4c55-9329-f7bdcfe0ce1c",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -465,7 +465,7 @@
             "id": "c40d8357-9427-4979-b67f-c5b5850d548d",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4294959360 },
+            "colour": { "Value": 4294953984 },
             "depth": 600,
             "grid_x": 32,
             "grid_y": 32,

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "48fd3a0e-2e8f-486d-8388-0c81665a6a72",
+            "Value": {
+                "id": "c90d748f-1427-4d8e-adb9-f55e5ee3e165",
+                "resourcePath": "rooms\\rMenu\\rMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "497d12ad-14db-4080-8f35-e53340a56af4",
             "Value": {
                 "id": "8b8aa2aa-afa5-417d-8240-e46daeeedf0c",
@@ -202,7 +210,7 @@
             "Key": "590b76d2-dd77-4c55-9329-f7bdcfe0ce1c",
             "Value": {
                 "id": "2573908e-b4b1-4532-a0e4-5925b7915bff",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\rTwo\\rTwo.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -250,7 +258,7 @@
             "Key": "8fb1a43d-d7f1-4aa9-861b-1a086f1895f3",
             "Value": {
                 "id": "fc119736-5533-4a52-b3f5-9ddedf8ac044",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rOne\\rOne.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -327,11 +335,27 @@
             }
         },
         {
+            "Key": "bbfbcde0-e11d-424a-aeb0-f534b6677b39",
+            "Value": {
+                "id": "77a95591-a40f-4b8c-80f5-9749c2b6014f",
+                "resourcePath": "sprites\\sDirtMenu\\sDirtMenu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfa09d7d-0a4d-4bc9-9c9c-63624738cf78",
             "Value": {
                 "id": "ae72fe03-2ab9-43c5-ba4a-55ea35dc4097",
                 "resourcePath": "sprites\\sPlayerAir\\sPlayerAir.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c9ee91ae-1ebc-4de3-9a53-743f7a7d08e5",
+            "Value": {
+                "id": "c9635f98-a6ca-4da5-9501-428d0c7645f9",
+                "resourcePath": "fonts\\fMenu\\fMenu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -396,6 +420,14 @@
                 "id": "8d5398eb-c960-49ae-a9c8-093ca83a518e",
                 "resourcePath": "sprites\\sEnemyDead\\sEnemyDead.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f049c46f-d9a3-4a5d-bba3-4e8b59283453",
+            "Value": {
+                "id": "65bd35fb-c3c0-4278-ba68-8ca79b79ca8d",
+                "resourcePath": "objects\\oMenu\\oMenu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
