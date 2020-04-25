@@ -52,6 +52,12 @@ if (onFloor) {
 	if (sprite_index == sPlayerAir) {
 		var snd = audio_play_sound(sndLanding, 2, false)
 		audio_sound_pitch(snd, choose(0.8, 1, 1.2)) //Slightly randomize pitch
+		
+		repeat(5) {
+			with (instance_create_layer(x, bbox_bottom, layerBullets, oDust)) {
+				vy = 0
+			}
+		}
 	}
 	
 	canjump = jumpBufferMax

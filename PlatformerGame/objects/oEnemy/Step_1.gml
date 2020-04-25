@@ -5,7 +5,7 @@ if (hp <= 0) {
 		vx = lengthdir_x(3, other.hitFrom)
 		vy = lengthdir_y(3, other.hitFrom)-2
 		
-		image_xscale = (sign(vx != 0)) ? other.size * sign(vx) : other.size
+		image_xscale = (sign(vx) != 0) ? other.size * sign(vx) : other.size
 		image_yscale = other.size
 		
 		ScreenShake(6 * other.size, 0.5)
@@ -13,5 +13,6 @@ if (hp <= 0) {
 		audio_sound_pitch(snd, 1/(other.size*0.5))
 	}
 	
+	with (mygun) instance_destroy()
 	instance_destroy()
 }

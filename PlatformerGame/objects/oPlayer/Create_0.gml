@@ -6,3 +6,4 @@ jumpSpd = -10
 hascontrol = true
 canjump = 0
 jumpBufferMax = 5
+layerBullets = layer_get_id("Bullets")
