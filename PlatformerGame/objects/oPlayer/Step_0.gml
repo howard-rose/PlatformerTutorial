@@ -13,11 +13,13 @@ if (hascontrol) {
 #region //Calculate movement
 //Horizontal movement
 var xmove = keyRight - keyLeft
-vx = xmove * walkSpd
+vx = (xmove * walkSpd) + gunkickx
+gunkickx = 0
 
 //Vertical movement (Jump)
 var onFloor = place_meeting(x, y+1, oWall)
-vy += grav
+vy += grav + gunkicky
+gunkicky = 0
 
 canjump--
 if (canjump > 0) and (keyJump) {
@@ -47,6 +49,9 @@ y += vy
 #endregion
 
 #region//Animation
+var aimside = sign(mouse_x - x)
+if (aimside != 0) image_xscale = aimside
+
 if (onFloor) {
 	//Landing sound
 	if (sprite_index == sPlayerAir) {
@@ -63,12 +68,21 @@ if (onFloor) {
 	canjump = jumpBufferMax
 	
 	image_speed = 1
-	sprite_index = (xmove == 0) ? sPlayer : sPlayerRun
+	
+	if (vx == 0) {
+		sprite_index = sPlayer
+	} else if (aimside != sign(vx)) {
+		sprite_index = sPlayerRunBack
+	} else {
+		sprite_index = sPlayerRun	
+	}
+	
+	//sprite_index = (xmove == 0) ? sPlayer : sPlayerRun
 } else { 
 	image_speed = 0
 	sprite_index = sPlayerAir
 	image_index = (vy > 0) ? 1 : 0
 } 
 
-if (xmove != 0) image_xscale = xmove
+//if (xmove != 0) image_xscale = xmove
 #endregion

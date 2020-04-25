@@ -1,3 +1,3 @@
 /// @desc Die
 
-KillPlayer()
+if (global.hasgun) KillPlayer()

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02c8370b-950a-4e55-97da-606f34115c7a",
+            "Value": {
+                "id": "d3af7be3-7e84-4e5c-bea4-629f66dad9b9",
+                "resourcePath": "objects\\oEnding\\oEnding.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "08f157a0-6483-4e79-a571-0a7233d88631",
             "Value": {
                 "id": "3c053685-0716-4797-a33c-359d623b69c8",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "ac092a73-44f4-4939-b89d-bcce4de92e20",
+            "Value": {
+                "id": "db954bba-3163-4dbf-b87b-cce995986174",
+                "resourcePath": "sprites\\sPlayerRunBack\\sPlayerRunBack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b787ee03-a26d-43ef-8c46-0ba1cff63e06",
             "Value": {
                 "id": "f46d470e-bb74-4b73-bff4-1090f076654f",
@@ -588,6 +604,14 @@
                 "id": "acd97b22-29eb-4ecf-a2cf-7b3a84a90e5f",
                 "resourcePath": "objects\\oSign\\oSign.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8f70321-5813-41b5-a1b6-9e21c597c9c4",
+            "Value": {
+                "id": "b08ecfd4-e444-4417-bd66-6f0aef10432d",
+                "resourcePath": "rooms\\rEnding\\rEnding.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -21,6 +21,12 @@ if (mouse_check_button(mb_left)) and (firingDelay < 0) {
 		spd = 25
 		direction = image_angle
 	}
+	
+	//Gun kickback for player
+	with (oPlayer) {
+		gunkickx = lengthdir_x(1.5, other.image_angle - 180)
+		gunkicky = lengthdir_y(1, other.image_angle - 180)
+	}
 }
 
 //Set position of gun with recoil; in Begin Step so that gun position is lagging 1 frame behind player
