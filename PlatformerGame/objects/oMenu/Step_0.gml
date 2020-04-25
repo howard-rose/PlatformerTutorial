@@ -40,6 +40,7 @@ if (menu_committed != -1) and (menu_x > gui_width + menu_x_offset - 50) {
 			} else {
 				var file = file_text_open_read(SAVEFILE)
 				var target = file_text_read_real(file)
+				global.kills = file_text_read_real(file)
 				file_text_close(file)
 				Transition(TransitionMode.Goto, target)
 			}
